@@ -25,7 +25,7 @@ cols = ["MS Number" , "CVE Number"]
 
 writeout = []
 for i , item in enumerate(arr):
-    if item.startswith("MS"):
+    if item.startswith("MS:MS15") or item.startswith("MS:MS16"):
         temp = []
         temp.append(item)
         temp.append(arr[i+1])
